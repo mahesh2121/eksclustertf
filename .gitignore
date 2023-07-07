@@ -1,0 +1,19 @@
+# Terraform files
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+*.tfstate.*
+
+# Ignore override files as they are usually used to override resources locally and don't need to be versioned
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore crash log files
+crash.log
+
+# Ignore .terraform.lock.hcl files
+# They are used by Terraform to track module dependencies and should not be committed
+.terraform.lock.hcl
